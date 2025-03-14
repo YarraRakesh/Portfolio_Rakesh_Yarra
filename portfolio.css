@@ -5,6 +5,7 @@ header{
 }
 /*
 .yellow{
+
 }
 .red{
 } 
@@ -22,11 +23,11 @@ section{
 }*/
 section{
     width:100%;
-    border:2px solid black;
+   /* border:2px solid black; */
     padding-left:20px;
 }
 div{
-    border: 2px solid black;
+   /* border: 2px solid black; */
     border-radius: 20px;
     margin: 20px;
     padding:20px;
@@ -35,13 +36,29 @@ div{
 body{
     font-family: 'Courier New', Courier, monospace;
 }
-.Project{
-    display:flex;
-    flex-direction: row;
-}
+.Project,
 .ProjectContainer{
     display:flex;
     flex-direction: row;
+    /* border: 2px solid black; */
+}
+.Project1,
+.Project2,
+.project1Container,
+.project2Container,
+.Project1Container{
+    border:2px solid black;
+    box-shadow: 2px 3px 10px black;
+}
+.Project1:hover,
+.Project2:hover,
+.project1Container:hover,
+.project2Container:hover,
+.Project1Container:hover{
+    background-color: rgb(5, 218, 255);
+    cursor:pointer;
+    transform:scale(1.05);
+    transform: 0.5s ease-in-out;
 }
 .projectContainer{
     padding:0;
@@ -56,4 +73,18 @@ body{
 img{
     width:200px;
     height:200px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: 30px;
+    justify-content: space-between;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.FeedbackForm{
+    display:flex;
+    justify-content: center;
 }
