@@ -55,7 +55,7 @@ body{
 .project1Container:hover,
 .project2Container:hover,
 .Project1Container:hover{
-    background-color: rgb(5, 218, 255);
+    background-color: rgba(5, 218, 255, 0.788);
     cursor:pointer;
     transform:scale(1.05);
     transform: 0.5s ease-in-out;
