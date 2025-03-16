@@ -44,16 +44,14 @@ body{
 .Project1,
 .Project2,
 .project1Container,
-.project2Container,
-.Project1Container{
+.Project2Container{
     border:2px solid black;
     box-shadow: 2px 3px 10px black;
 }
 .Project1:hover,
 .Project2:hover,
 .project1Container:hover,
-.project2Container:hover,
-.Project1Container:hover{
+.Project2Container:hover{
     background-color: rgba(5, 218, 255, 0.788);
     cursor:pointer;
     transform:scale(1.05);
@@ -83,7 +81,29 @@ form{
     border: 2px solid black;
     border-radius: 20px;
 }
+.Skills dl {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
+    grid-template-rows: auto auto; /* Creates two rows */
+    gap: 20px; /* Space between items */
+}
+
+.Skills dt {
+    font-weight: bold;
+}
+
+.Skills dd {
+    margin: 0;
+}
+
 .FeedbackForm{
     display:flex;
     justify-content: center;
 }
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
