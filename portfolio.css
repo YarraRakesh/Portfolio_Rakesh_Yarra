@@ -35,8 +35,7 @@ div{
 body{
     font-family: 'Courier New', Courier, monospace;
 }
-.Project,
-.ProjectContainer{
+.Project{
     display:flex;
     flex-direction: row;
     /* border: 2px solid black; */
@@ -44,14 +43,20 @@ body{
 .Project1,
 .Project2,
 .project1Container,
-.Project2Container{
+.Project2Container,
+.project3Container,
+.Sk,
+.TS{
     border:2px solid black;
     box-shadow: 2px 3px 10px black;
 }
 .Project1:hover,
 .Project2:hover,
 .project1Container:hover,
-.Project2Container:hover{
+.Project2Container:hover,
+.project3Container:hover,
+.Sk:hover,
+.TS:hover{
     background-color: rgba(5, 218, 255, 0.788);
     cursor:pointer;
     transform:scale(1.05);
